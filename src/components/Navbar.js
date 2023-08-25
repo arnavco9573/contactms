@@ -56,8 +56,13 @@ const Navbar = () => {
             <li className="hover:text-cyan-400 transition-all duration-500 cursor-pointer">
               <Link className="" to="/">Contact</Link>
             </li>
-            <li className="hover:text-cyan-400 transition-all duration-500 cursor-pointer">
-              <Link className="" to="/chartsandmaps">Maps And Charts</Link>
+            <li className="py-2 hover:text-cyan-400 transition-all duration-500 group relative cursor-pointer">
+              <Link className="" to="/maps">Maps</Link>
+              <div className="absolute bottom-0 w-full h-1 bg-cyan-400 hidden group-hover:block transition-all duration-500"></div>
+            </li>
+            <li className="py-2 hover:text-cyan-400 transition-all duration-500 group relative cursor-pointer">
+              <Link className="" to="/charts">Charts</Link>
+              <div className="absolute bottom-0 w-full h-1 bg-cyan-400 hidden group-hover:block transition-all duration-500"></div>
             </li>
             
             
