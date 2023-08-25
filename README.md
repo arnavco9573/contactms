@@ -1,4 +1,5 @@
 <h1>Contact Management System with Redux CRUD Operations, Local Storage, Maps, and Charts</h1>
+
 Welcome to the Contact Management System project! This is a web application built using React and Redux that allows you to manage contacts, perform CRUD operations, store data in local storage, and visualize COVID-19 statistics on a map and charts.
 
 Features
@@ -7,26 +8,26 @@ Data is persisted using local storage to ensure your contacts are saved even aft
 Interactive map powered by React Leaflet that displays COVID-19 statistics for different countries.
 Charts that visualize COVID-19 data including active, recovered, and death cases for selected countries.
 Easy navigation through a responsive navbar.
-Getting Started
+
+<h3>Getting Started<h3/>
 Follow these steps to set up and run the project locally on your machine.
 
 Clone the Repository: Start by cloning the repository to your local machine:
 
-bash
 Copy code
 git clone https://github.com/arnavco9573/contactms.git
 Install Dependencies: Navigate to the project directory and install the required dependencies:
 
-bash
 Copy code
-cd contact-management-system
+cd cms
 npm install
 Run the Application: Once the dependencies are installed, start the development server:
 
-bash
 Copy code
 npm start
 The application will be accessible at http://localhost:3000 in your web browser.
+
+<h2>Also I have hosted the website at the netlify the url is https://contactmanges.netlify.app/</h2>
 
 Usage
 Contacts: Use the "Contacts" section in the navbar to manage your contacts. You can add, edit, and delete contacts. Changes are automatically saved to local storage.
